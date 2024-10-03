@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LocationController;
+use App\Http\Controllers\LokasiController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,4 +13,4 @@ use App\Http\Controllers\LocationController;
 |
 */
 
-Route::get('/', [LocationController::class, 'index']);
+Route::get('/', [LokasiController::class, 'index']);
